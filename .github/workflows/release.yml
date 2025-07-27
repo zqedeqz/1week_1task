@@ -1,5 +1,7 @@
 name: 'C++ CI'
-
+permissions:
+  contents: write  # позволяет создавать релизы и пушить теги
+  
 on:
   push:
     branches:
